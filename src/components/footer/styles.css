@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family= Kdam+Thmor+Pro & display = swap');
+
+footer {
+    height: 300px;
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav {
+    display: flex;
+    width: 500px;
+    align-items: center;
+    
+}
+
+ul{
+    display: flex;
+}
+
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+
+span {
+    color: #fff;
+    font-family: 'Liberation Sans', sans-serif;
+}
+
+
+@media(max-width:768px){
+     
+nav {
+    display: none;
+    width: 300px;
+    margin-right: 90px;    
+}
+
+li {
+    display: block;
+    
+   
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+}
+
+}
+
+/*
+align-items: center;
+
+*/
+
+

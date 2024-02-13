@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family= Kdam+Thmor+Pro & display = swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+.actor-cards-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'kdam Thmor Pro', sans-serif;
+}
+
+/*galeria de fotos*/
+
+.fotos{
+    color: #fff;
+    font-size: 30px;
+    font-family: 'kdam Thmor Pro', sans-serif;
+    
+}
+
+.fotos-content {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.foto {
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family: 'kdam Thmor Pro', sans-serif;
+}
+
+.foto:hover {
+    transform: scale(1.02);
+}
+
+
+.baner-1 {
+    background-image: url('https://ovicio.com.br/wp-content/uploads/2023/01/20230131-fn0ovmdwiailmhk-555x555.jpg');
+}
+
+.baner-2 {
+    background-image: url('https://f.i.uol.com.br/fotografia/2022/03/03/1646335025622114315bf25_1646335025_3x2_md.jpg');
+}
+
+.baner-3 {
+    background-image: url('https://i.pinimg.com/736x/0a/a6/61/0aa66140c3d0bde86a8de619f1bf11da.jpg');
+}
+
+.baner-4 {
+    background-image: url('https://br.web.img3.acsta.net/pictures/22/03/02/19/26/3666027.jpg');
+}
+
+.baner-5 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ8QY6DZm3tGyPwXm6oEtMv10Xwn8ip_PQD3TCcTr5XE_WScZ0Z41sQkrP738qeCdwMT8&usqp=CAU');
+}
+
+.baner-6 {
+    background-image: url('https://www.tribunapr.com.br/wp-content/uploads/sites/56/2022/02/28121731/rev-1-TBM-11721r_High_Res_JPEG-970x550.jpeg');
+}
+
+/*fim da estilização da galeria de fotos*/
+
+.card:hover {
+    transform: scale(1.02);
+}
+
+.banner-1 {
+    background-image: url('https://ovicio.com.br/wp-content/uploads/2023/01/20230131-fn0ovmdwiailmhk-555x555.jpg');
+}
+
+
+.banner-2 {
+    background-image: url('https://i.pinimg.com/736x/0a/a6/61/0aa66140c3d0bde86a8de619f1bf11da.jpg');
+}
+
+
+.banner-3 {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQ8QY6DZm3tGyPwXm6oEtMv10Xwn8ip_PQD3TCcTr5XE_WScZ0Z41sQkrP738qeCdwMT8&usqp=CAU');
+}
+
+@media(max-width: 768px){
+    .footer-navigation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+}

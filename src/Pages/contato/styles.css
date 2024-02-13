@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family= Kdam+Thmor+Pro & display = swap');
+
+
+
+.content{
+    /*display: flex; */
+    justify-content: center; 
+    color: #fff;
+    
+}
+
+
+
+.contato{
+    width: 100%;
+    max-width: 750px; 
+    align-items: center;
+    margin-left: 50px; 
+    flex-direction: column;
+    
+}
+
+
+.form{
+      
+    background-color: #fff;
+    margin-bottom: 10px;
+      
+}
+
+h3{
+    padding: 10px; 
+    font-size: 40px;
+    font-family: "kdam Thmor Pro", sans-serif; 
+    flex-direction: column;
+    max-width: 750px;
+    align-items: center;
+    margin-left: 170px;
+}
+
+
+.field{
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 2px solid red; 
+    border-radius: 5px; 
+    font-family: "kdam Thmor Pro", sans-serif; 
+    font-size: 16px; 
+    background-color: #fff;
+    flex-direction: column;
+    width: 350px;
+    margin-left: 10px;
+    align-items: center;
+    max-width: 750px;
+    
+    
+}
+
+
+.field2 {
+    padding: 10px; 
+    margin-bottom: 15px; 
+    border: 2px solid red; 
+    border-radius: 5px; 
+    font-family: "kdam Thmor Pro", sans-serif; 
+    font-size: 16px; 
+    background-color: #fff;
+    flex-direction: column;
+    max-width: 750px;
+    margin-left: 10px;
+    align-items: center;
+    height: 250px;
+    width: 350px;
+}
+
+.botton{
+    margin-bottom: 15px; 
+    border: 1px solid #DDD; 
+    border-radius: 5px; 
+    font-family: "kdam Thmor Pro", sans-serif; 
+    color: #DDD; 
+    font: bold; 
+    font-size: 20px; 
+    background-color: rgb(228, 21, 21);
+    width: 100px;
+    margin-left:100px; 
+}
+
+
+
+
+
+/*
+textarea{
+    width: 1500px;
+    height: 250px; 
+    background-color: #fff;
+    margin-bottom: 15px;
+    max-width: 780px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+    margin-left: 10px;
+    
+   
+}*/
+
+
+
+
+@media(max-width: 768px){
+    .content{
+        display: flex; 
+        justify-content: center; 
+        color: #fff;
+        
+    }
+
+    
+    
+    .footer-navigation {
+        display: block;
+    }
+    
+        
+        
+    h3{
+        padding: 10px; 
+        font-size: 30px;
+        font-family: "kdam Thmor Pro", sans-serif; 
+        display: block;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .content{
+        /*display: flex; */
+        justify-content: center; 
+        color: #fff;
+        
+    }
+    
+    
+    
+    .contato{
+        width: 100%;
+        max-width: 750px; 
+        align-items: center;
+        margin-left: 50px; 
+        flex-direction: column;
+        
+    }
+    
+}
